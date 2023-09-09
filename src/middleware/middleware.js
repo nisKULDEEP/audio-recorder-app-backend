@@ -5,7 +5,6 @@ const userModel = require('../models/userModel');
 async function isValidToken(req, res, next) {
   try {
     let { token } = req.headers;
-    console.log('token: ', token);
 
     if (!token) {
       return res
