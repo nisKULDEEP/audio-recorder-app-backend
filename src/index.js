@@ -5,11 +5,8 @@ const passport = require('passport');
 const session = require('express-session');
 require('dotenv').config();
 
-// const reportRoutes = require('./src/routes/reportRoutes');
-// const reportModel = require('./src/models/reportModel');
-// const middleware = require('./src/middleware/middleware');
-const userRoute = require('./src/routes/userRoutes');
-const recordingRoute = require('./src/routes/recordingRoutes');
+const userRoute = require('./routes/userRoutes');
+const recordingRoute = require('./routes/recordingRoutes');
 
 const app = express();
 
